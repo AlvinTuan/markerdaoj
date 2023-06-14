@@ -8,7 +8,7 @@ const Recent = () => {
         <h2 className="text-center">
           <span className="text-xl font-bold mx-auto">Recent blog posts</span>
         </h2>
-        <div className="mt-11 flex flex-shrink justify-around absolute left-0 right-0 translate-y-[5px]">
+        <div className="mt-11 flex flex-shrink justify-around absolute left-0 right-0 translate-y-[-20px]">
           <Card
             img="/Partnership-purple-scaled.jpg"
             title="MakerDAO Has Come Full Circle"
