@@ -7,6 +7,7 @@ module.exports = {
       primary: "#333333",
       secondary: "#1aab9b",
       hover: "#0a8e7f",
+      banner: "rgb(71 85 105)",
     },
     extend: {},
   },
