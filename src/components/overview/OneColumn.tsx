@@ -1,5 +1,5 @@
 import React, { Children } from "react";
-import OneColumnItem from "./OneColumnItem";
+import OneColumnItem from "../item/OneColumnItem";
 import FinancialImage from "../svg-image/FinancialImage";
 import DecentralizedImage from "../svg-image/DecentralizedImage";
 import EcosystemImage from "../svg-image/EcosystemImage";

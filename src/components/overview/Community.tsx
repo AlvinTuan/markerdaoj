@@ -1,6 +1,6 @@
 import React from "react";
 import ChatImage from "../svg-image/ChatImage";
-import CommunityItem from "./CommunityItem";
+import CommunityItem from "../item/CommunityItem";
 import ForumImage from "../svg-image/ForumImage";
 import TwitterImage from "../svg-image/TwitterImage";
 import TelegramImage from "../svg-image/TelegramImage";
