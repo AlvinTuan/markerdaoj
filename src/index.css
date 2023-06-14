@@ -78,3 +78,68 @@ h5 {
 .link-item:hover {
   color: #10685e;
 }
+li {
+  margin-bottom: 10px;
+}
+li > a {
+  color: var(--primary-color);
+}
+li > a:hover {
+  color: var(--hover-color);
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  font-size: 15px;
+}
+/* dropdown */
+
+/* Kiểu của Dropdown Button */
+.dropbtn {
+  background-color: #4caf50;
+  color: white;
+  /* padding: 16px; */
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* Vùng chứa <div> - cần thiết để định vị nội dung thả xuống */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (ẩn bởi mặc định) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  z-index: 1;
+  font-size: 18px;
+}
+
+/* Liên kết nằm trong dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 2px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  /* background-color: #f1f1f1; */
+  border-radius: 12px;
+  color: var(--hover-color);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  border-radius: 12px;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}

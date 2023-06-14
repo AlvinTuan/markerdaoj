@@ -11,7 +11,7 @@ const Card: React.FC<props> = ({ img, title, date }) => {
     <div>
       <div className="w-[300px] h-auto border-solid border rounded-lg">
         <img src={`${img}`} alt="" className="rounded-lg" />
-        <div className="py-3 px-5 bg-white">
+        <div className="py-3 px-5 bg-[#ffffff] rounded-b-lg">
           <h3 className="text-[17px] font-normal h-[46px]">
             <span>{title}</span>
           </h3>

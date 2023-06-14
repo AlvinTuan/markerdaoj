@@ -1,8 +1,6 @@
-import React from "react";
 import type { MenuProps } from "antd";
-import { Button, Dropdown, Space } from "antd";
 
-export const items: MenuProps["items"] = [
+export const itemsLearn: MenuProps["items"] = [
   {
     key: "1",
     label: (
@@ -52,20 +50,3 @@ export const items: MenuProps["items"] = [
     ),
   },
 ];
-
-interface Attribute {
-  href: string;
-  name: string;
-}
-
-const MenuItem = ({ href, name }: Attribute) => {
-  return (
-    <>
-      <a href={`${href}`} className="menu-item">
-        {name}
-      </a>
-    </>
-  );
-};
-
-export default MenuItem;

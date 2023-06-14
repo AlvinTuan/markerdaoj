@@ -1,5 +1,7 @@
 import React from "react";
 import MenuItem from "./MenuItem";
+import { Button, Dropdown, Space } from "antd";
+import { items } from "./MenuItem";
 
 const NavBar = () => {
   return (
@@ -19,13 +21,112 @@ const NavBar = () => {
             fill="#333333"
           ></path>
         </svg>
-        <div className="desktopMenu flex justify-center items-center gap-x-[70px]">
-          <MenuItem name="Ecosystem"></MenuItem>
-          <MenuItem name="Developer"></MenuItem>
-          <MenuItem name="Learn"></MenuItem>
-          <MenuItem name="Foundation"></MenuItem>
-          <MenuItem name="Community"></MenuItem>
-          <MenuItem name="Vote"></MenuItem>
+        <div className="flex justify-center items-center gap-x-[70px]">
+          <MenuItem
+            href="https://makerdao.com/vi/ecosystem"
+            name="Ecosystem"
+          ></MenuItem>
+          <div className="dropdown">
+            <button className="menu-item">Dropdown</button>
+            <div className="dropdown-content rounded-xl">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://docs.makerdao.com/"
+              >
+                Documentation
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.aliyun.comhttps://docs.makerdao.com/build/dai.js"
+              >
+                Dai.js
+              </a>
+              <a
+                href="https://github.com/makerdao/developerguides"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Developer Guides
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://immunefi.com/bounty/makerdao/"
+              >
+                Bug Bounty
+              </a>
+            </div>
+          </div>
+          <div className="dropdown">
+            <button className="menu-item">Learn</button>
+            <div className="dropdown-content rounded-xl">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://makerdao.com/vi/whitepaper"
+              >
+                Whitepaper
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://awesome.makerdao.com/#faqs"
+              >
+                FAQs
+              </a>
+            </div>
+          </div>
+          <div className="dropdown">
+            <button className="menu-item">Foundation</button>
+            <div className="dropdown-content rounded-xl">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://makerdao.com/vi/contact"
+              >
+                Contact
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://forum.makerdao.com/c/legacy/resources-job-opportunities/11"
+              >
+                Job Opportunities
+              </a>
+            </div>
+          </div>
+          <div className="dropdown">
+            <button className="menu-item">Community</button>
+            <div className="dropdown-content rounded-xl">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://blog.makerdao.com/"
+              >
+                Blog
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://discord.com/invite/RBRumCpEDH"
+              >
+                Chat
+              </a>
+              <a
+                href="https://start.makerdao.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Forum
+              </a>
+            </div>
+          </div>
+          {/* <MenuItem href="#" name="Learn"></MenuItem>
+          <MenuItem href="#" name="Foundation"></MenuItem>
+          <MenuItem href="#" name="Community"></MenuItem> */}
+          <MenuItem href="https://vote.makerdao.com/" name="Vote"></MenuItem>
         </div>
       </div>
     </>
