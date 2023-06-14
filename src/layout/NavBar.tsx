@@ -27,7 +27,7 @@ const NavBar = () => {
             name="Ecosystem"
           ></MenuItem>
           <div className="dropdown">
-            <button className="menu-item">Dropdown</button>
+            <button className="menu-item">Developers</button>
             <div className="dropdown-content rounded-xl">
               <a
                 target="_blank"
