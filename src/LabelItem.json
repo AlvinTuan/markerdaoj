@@ -1,0 +1,8 @@
+[
+  { "index": 1, "label": "Get Dai" },
+  { "index": 2, "label": "Use Dai" },
+  { "index": 3, "label": "Hold Dai" },
+  { "index": 4, "label": "Accept Dai" },
+  { "index": 5, "label": "DeFi" },
+  { "index": 6, "label": "Games" }
+]

@@ -4,7 +4,7 @@ const ForumImage = () => {
   return (
     <>
       <svg width="25" height="25" viewBox="0 0 25 25" fill="none">
-        <g clip-path="url(#clip0_forum)">
+        <g clipPath="url(#clip0_forum)">
           <path
             d="M12.0797 0.23288C5.52169 0.23288 0 5.54964 0 12.11C0 12.3219 0 24.4086 0 24.4086L12.0774 24.397C18.6354 24.397 23.9545 18.8753 23.9545 12.3173C23.9545 5.75923 18.6308 0.23288 12.0797 0.23288Z"
             fill="#231F20"

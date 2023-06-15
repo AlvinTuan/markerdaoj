@@ -10,7 +10,7 @@ import Recent from "./Recent";
 const Community: React.FC = () => {
   return (
     <section>
-      <div className="bg-background max-w-[1100px] mx-auto h-[700px] relative rounded-xl">
+      <div className="bg-background max-w-[1100px] mx-auto h-[700px] relative rounded-xl mb-[150px]">
         <div className="join-the-community pt-16">
           <div className="w-[948px] text-center mx-auto">
             <h2>

@@ -2,7 +2,7 @@ import React from "react";
 import { Layout, Space } from "antd";
 import NavBar from "./layout/NavBar";
 
-import FooterMKD from "./components/overview/FooterMKD";
+import FooterMKD from "./components/footer/FooterMKD";
 import HomePage from "./pages/HomePage";
 import NavBarRouter from "./layout/NavBarRouter";
 

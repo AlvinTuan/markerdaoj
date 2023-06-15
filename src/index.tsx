@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Ecosystem from "./components/ecosystem/Ecosystem";
+import Ecosystem from "./pages/Ecosystem";
 import NavBarRouter from "./layout/NavBarRouter";
 
 const root = ReactDOM.createRoot(

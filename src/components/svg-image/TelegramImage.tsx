@@ -29,8 +29,8 @@ const TelegramImage = () => {
             y2="18"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#37AEE2"></stop>
-            <stop offset="1" stop-color="#1E96C8"></stop>
+            <stop stopColor="#37AEE2"></stop>
+            <stop offset="1" stopColor="#1E96C8"></stop>
           </linearGradient>
           <linearGradient
             id="paint1_linear_telegram"
@@ -40,8 +40,8 @@ const TelegramImage = () => {
             y2="16.2678"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#EFF7FC"></stop>
-            <stop offset="1" stop-color="white"></stop>
+            <stop stopColor="#EFF7FC"></stop>
+            <stop offset="1" stopColor="white"></stop>
           </linearGradient>
         </defs>
       </svg>

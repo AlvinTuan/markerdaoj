@@ -13,7 +13,7 @@ const OneColumnItem: React.FC<props> = ({ title, describe, toLink, img }) => {
       <div className="flex items-center justify-between mb-24">
         <div className="content max-w-[430px] text-left">
           <h2>
-            <span className="text-2xl font-medium">{title}</span>
+            <span className="text-2xl font-semibold">{title}</span>
           </h2>
           <p className="my-5 text-xl">
             <span>{describe}</span>
