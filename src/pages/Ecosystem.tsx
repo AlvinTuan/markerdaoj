@@ -1,15 +1,15 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React, { useState } from "react";
 import LinkTag from "../components/tag/LinkTag";
-import labelItem from "../config/LabelItem.json";
+import labelItem from "../DataJson/LabelItem.json";
 import TypeList from "../components/tag/TypeList";
-import contributors from "../config/Contributor.json";
-import GetDai from "../config/GetDai.json";
-import UseDai from "../config/UseDai.json";
-import HoldDai from "../config/HoldDai.json";
-import AcceptDai from "../config/AcceptDai.json";
-import DeFI from "../config/DeFI.json";
-import Games from "../config/Games.json";
+import contributors from "../DataJson/Contributor.json";
+import GetDai from "../DataJson/GetDai.json";
+import UseDai from "../DataJson/UseDai.json";
+import HoldDai from "../DataJson/HoldDai.json";
+import AcceptDai from "../DataJson/AcceptDai.json";
+import DeFI from "../DataJson/DeFI.json";
+import Games from "../DataJson/Games.json";
 
 const Ecosystem = () => {
   const [toggle, setToggle] = useState(1);
