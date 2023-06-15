@@ -12,6 +12,7 @@ const NavBarRouter = () => {
         <NavLink to={"/"}>
           <LogoMakerDao></LogoMakerDao>
         </NavLink>
+        {/* <div className="absolute right-[292px] w-[880px] h-[64px] "></div> */}
         <div className="flex justify-center items-center gap-x-[70px]">
           <NavLink to={"/ecosystem"} className={"menu-item"}>
             Ecosystem
@@ -113,6 +114,7 @@ const NavBarRouter = () => {
               </a>
             </div>
           </div>
+
           {/* <MenuItem href="#" name="Learn"></MenuItem>
             <MenuItem href="#" name="Foundation"></MenuItem>
             <MenuItem href="#" name="Community"></MenuItem> */}

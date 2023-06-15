@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "toLink": "https://app.1inch.io/",
+    "image": "/1inch.png",
+    "title": "1inch",
+    "description": "DEX Aggregator with the best prices on the market."
+  },
+  {
+    "id": 2,
+    "toLink": "https://curve.fi/",
+    "image": "/curve.png",
+    "title": "Curve",
+    "description": "An exchange liquidity pool on Ethereum."
+  },
+  {
+    "id": 3,
+    "toLink": "https://defisaver.com/",
+    "image": "/defi_saver.png",
+    "title": "DeFi Saver",
+    "description": "One-stop management app for decentralized finance."
+  },
+  {
+    "id": 4,
+    "toLink": "https://instadapp.io/",
+    "image": "/instaDapp.png",
+    "title": "InstaDapp",
+    "description": "Manage, optimize and deploy your assets to get the best returns across protocols."
+  },
+  {
+    "id": 5,
+    "toLink": "https://oasis.app/borrow",
+    "image": "/oasis_borrow.png",
+    "title": "Oasis Borrow",
+    "description": "Manage depositing of collateral and generation of Dai."
+  },
+  {
+    "id": 6,
+    "toLink": "https://uniswap.org/",
+    "image": "/uniswap.png",
+    "title": "Uniswap",
+    "description": "A protocol for automated token exchange on Ethereum."
+  }
+]

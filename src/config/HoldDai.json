@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "toLink": "https://www.anchorage.com/",
+    "image": "/anchorage.png",
+    "title": "Anchorage",
+    "description": "Raising the bar for digital asset custody"
+  },
+  {
+    "id": 2,
+    "toLink": "https://custody.coinbase.com/",
+    "image": "/coinbase_custody.png",
+    "title": "Coinbase Custody",
+    "description": "Digital asset custody for institutions."
+  },
+  {
+    "id": 3,
+    "toLink": "https://www.ledger.com/",
+    "image": "/ledger.png",
+    "title": "Ledger",
+    "description": "Secure your crypto assets such as Bitcoin, Ethereum, XRP, Monero and more."
+  },
+  {
+    "id": 4,
+    "toLink": "https://metamask.io/",
+    "image": "/metamark.png",
+    "title": "MetaMask",
+    "description": "Making Ethereum as easy to use for as many people as possible."
+  },
+  {
+    "id": 5,
+    "toLink": "https://mycrypto.com/",
+    "image": "/my_crypto.png",
+    "title": "MyCrypto",
+    "description": "Create wallets, manage your assets, and interact with the blockchain."
+  },
+  {
+    "id": 6,
+    "toLink": "https://trezor.io/",
+    "image": "/trezor.png",
+    "title": "Trezor",
+    "description": "The first and original hardware wallet."
+  }
+]

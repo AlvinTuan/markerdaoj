@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "toLink": "https://token.im/",
+    "image": "/imToken.png",
+    "title": "imToken",
+    "description": "World-renowned mobile light wallet for digital asset management."
+  },
+  {
+    "id": 2,
+    "toLink": "https://www.tokensets.com/#/",
+    "image": "/set_protocol.png",
+    "title": "Set Protocol",
+    "description": "Enhance your portfolio with automated asset management strategies."
+  },
+  {
+    "id": 3,
+    "toLink": "https://pos.valentelabs.com.ar/login",
+    "image": "/valentePOS.png",
+    "title": "ValentePOS",
+    "description": "Issue legal invoices accepting Dai as a payment currency payment in Argentina in a simple and quick way."
+  },
+  {
+    "id": 4,
+    "toLink": "https://wirexapp.com/",
+    "image": "/wirex.png",
+    "title": "Wirex",
+    "description": "Transfer digital and traditional currencies around the globe."
+  }
+]

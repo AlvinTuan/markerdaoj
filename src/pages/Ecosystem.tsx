@@ -1,17 +1,17 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React, { useState } from "react";
-import { Layout } from "antd";
-import NavBarRouter from "../layout/NavBarRouter";
 import LinkTag from "../components/tag/LinkTag";
-import data from "../data.json";
-import FooterMKD from "../components/footer/FooterMKD";
-import labelItem from "../LabelItem.json";
-import GetDaiList from "../components/tag/TypeList";
+import labelItem from "../config/LabelItem.json";
 import TypeList from "../components/tag/TypeList";
+import contributors from "../config/Contributor.json";
+import GetDai from "../config/GetDai.json";
+import UseDai from "../config/UseDai.json";
+import HoldDai from "../config/HoldDai.json";
+import AcceptDai from "../config/AcceptDai.json";
+import DeFI from "../config/DeFI.json";
+import Games from "../config/Games.json";
 
-const { Header, Footer } = Layout;
-
-const Ecosystem: React.FC = () => {
+const Ecosystem = () => {
   const [toggle, setToggle] = useState(1);
 
   function handleClick(id: number) {
@@ -19,9 +19,6 @@ const Ecosystem: React.FC = () => {
   }
   return (
     <>
-      <Header className="layout-style">
-        <NavBarRouter></NavBarRouter>
-      </Header>
       <div className="mt-20 w-[1040px] mx-auto mb-[77px]">
         <div className=" text-center mt-10">
           <h1 className="text-5xl font-medium">Maker Ecosystem</h1>
@@ -33,8 +30,8 @@ const Ecosystem: React.FC = () => {
           Made by MakerDAO contributors
         </h2>
         <div className="grid grid-cols-2 gap-x-9">
-          {data.contributors.length > 0 &&
-            data.contributors.map((item) => (
+          {contributors.length > 0 &&
+            contributors.map((item) => (
               <div key={item.id}>
                 <LinkTag
                   toLink={item.toLink || ""}
@@ -60,24 +57,12 @@ const Ecosystem: React.FC = () => {
           ))}
         </div>
         <div className="mt-9">
-          <div className={toggle === 1 ? "block" : "hidden"}>
-            <TypeList typeList={data.GetDai || []} />
-          </div>
-          <div className={toggle === 2 ? "block" : "hidden"}>
-            <TypeList typeList={data.UseDai || []} />
-          </div>
-          <div className={toggle === 3 ? "block" : "hidden"}>
-            <TypeList typeList={data.HoldDai || []} />
-          </div>
-          <div className={toggle === 4 ? "block" : "hidden"}>
-            <TypeList typeList={data.AcceptDai || []} />
-          </div>
-          <div className={toggle === 5 ? "block" : "hidden"}>
-            <TypeList typeList={data.DeFI || []} />
-          </div>
-          <div className={toggle === 6 ? "block" : "hidden"}>
-            <TypeList typeList={data.Games || []} />
-          </div>
+          {toggle === 1 && GetDai && <TypeList typeList={GetDai || []} />}
+          {toggle === 2 && UseDai && <TypeList typeList={UseDai || []} />}
+          {toggle === 3 && GetDai && <TypeList typeList={HoldDai || []} />}
+          {toggle === 4 && AcceptDai && <TypeList typeList={AcceptDai || []} />}
+          {toggle === 5 && DeFI && <TypeList typeList={DeFI || []} />}
+          {toggle === 6 && Games && <TypeList typeList={Games || []} />}
         </div>
         <a
           href="https://github.com/makerdao/awesome-makerdao#dai-1"
@@ -106,10 +91,6 @@ const Ecosystem: React.FC = () => {
           </a>
         </div>
       </div>
-
-      <Footer className="layout-style">
-        <FooterMKD></FooterMKD>
-      </Footer>
     </>
   );
 };

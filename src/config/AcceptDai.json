@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "toLink": "https://www.dentwireless.com/",
+    "image": "/dent.png",
+    "title": "DENT",
+    "description": "A digital and global mobile operator."
+  },
+  {
+    "id": 2,
+    "toLink": "https://opensea.io/",
+    "image": "/opensea.png",
+    "title": "OpenSea",
+    "description": "The largest marketplace for crypto collectibles."
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "toLink": "https://www.bitcointrade.com.br/",
+    "image": "/Bitcointrade.png",
+    "title": "Bitcointrade",
+    "description": "Buy and Sell crypto in Brazil."
+  },
+  {
+    "id": 2,
+    "toLink": "https://www.buenbit.com/",
+    "image": "/Buenbit.png",
+    "title": "Buenbit",
+    "description": "The easiest way for LATAM audiences to buy and sell Dai."
+  },
+  {
+    "id": 3,
+    "toLink": "https://www.coinbase.com/",
+    "image": "/coinbase.png",
+    "title": "Coinbase",
+    "description": "A secure platform that makes it easy to buy, sell, and store cryptocurrency."
+  },
+  {
+    "id": 4,
+    "toLink": "https://www.bitcointrade.com.br/",
+    "image": "/oasis_app.png",
+    "title": "Oasis.app",
+    "description": "The home for your smarter digital currency Dai. Buy, Send and Save it all in one place."
+  },
+  {
+    "id": 5,
+    "toLink": "https://www.bitcointrade.com.br/",
+    "image": "/panda_exchange.png",
+    "title": "Panda Exchange",
+    "description": "A platform to exchange your crypto assets easily, speedily, and safely."
+  },
+  {
+    "id": 6,
+    "toLink": "https://swissborg.com/",
+    "image": "/swissborg.png",
+    "title": "Swissborg",
+    "description": "Manage your crypto investment."
+  },
+  {
+    "id": 7,
+    "toLink": "https://www.sendwyre.com/",
+    "image": "/wyre.png",
+    "title": "Wyre",
+    "description": "Exchange crypto safely and securely."
+  }
+]

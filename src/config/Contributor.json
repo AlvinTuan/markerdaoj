@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "toLink": "https://vote.makerdao.com/",
+    "image": "/ime1.png",
+    "title": "Governance",
+    "description": "Vote on changes to the Maker protocol."
+  },
+  {
+    "id": 2,
+    "toLink": "https://migrate.makerdao.com/",
+    "image": "/Migrate.png",
+    "title": "Migrate",
+    "description": "Move your Dai and CDPs into their new versions."
+  }
+]

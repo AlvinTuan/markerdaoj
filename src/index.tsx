@@ -13,10 +13,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App></App>}></Route>
-        <Route path="/ecosystem" element={<Ecosystem></Ecosystem>}></Route>
-      </Routes>
+      <App></App>
     </BrowserRouter>
   </React.StrictMode>
 );

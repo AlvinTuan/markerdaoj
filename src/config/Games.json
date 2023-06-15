@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "toLink": "https://www.blocklords.com/",
+    "image": "/blocklords.png",
+    "title": "Blocklords",
+    "description": "The ultimate online grand strategy game."
+  },
+  {
+    "id": 2,
+    "toLink": "https://www.leagueofkingdoms.com/",
+    "image": "/lok.png",
+    "title": "League of Kingdoms",
+    "description": "An MMO Strategy game where gamers fight for dominion."
+  },
+  {
+    "id": 3,
+    "toLink": "https://marble.cards/",
+    "image": "/marble_cards.png",
+    "title": "Marble.cards",
+    "description": "Create and trade unique digital cards based on URLs."
+  },
+  {
+    "id": 4,
+    "toLink": "https://www.sandbox.game/en/",
+    "image": "/sandbox.png",
+    "title": "Sandbox",
+    "description": "Play, Create, Own, and Govern a virtual world made by players."
+  },
+  {
+    "id": 5,
+    "toLink": "https://xaya.io/",
+    "image": "/xaya.png",
+    "title": "Xaya",
+    "description": "A purpose built blockchain specifically for the hosting of completely decentralized blockchain game worlds."
+  }
+]

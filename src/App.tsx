@@ -5,6 +5,9 @@ import NavBar from "./layout/NavBar";
 import FooterMKD from "./components/footer/FooterMKD";
 import HomePage from "./pages/HomePage";
 import NavBarRouter from "./layout/NavBarRouter";
+import { Route, Routes } from "react-router-dom";
+import Ecosystem from "./pages/Ecosystem";
+import Main from "./pages/Main";
 
 const { Header, Footer, Content } = Layout;
 
@@ -13,16 +16,17 @@ function App() {
     <>
       <Layout>
         <Header className="layout-style">
-          {/* <NavBar></NavBar> */}
           <NavBarRouter></NavBarRouter>
         </Header>
         <Content className="layout-style">
-          <HomePage></HomePage>
+          <Main></Main>
         </Content>
         <Footer className="layout-style">
           <FooterMKD></FooterMKD>
         </Footer>
       </Layout>
+
+      {/* <Route path="/ecosystem" element={<Ecosystem></Ecosystem>}></Route> */}
     </>
   );
 }
