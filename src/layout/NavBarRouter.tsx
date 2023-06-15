@@ -1,8 +1,8 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import MenuItem from "./MenuItem";
-import { Outlet, Link } from "react-router-dom";
 
-const NavBar = () => {
+const NavBarRouter = () => {
   return (
     <>
       <div className="container flex justify-between items-center px-[14px] mt-5">
@@ -21,10 +21,9 @@ const NavBar = () => {
           ></path>
         </svg>
         <div className="flex justify-center items-center gap-x-[70px]">
-          <MenuItem
-            href="https://makerdao.com/vi/ecosystem"
-            name="Ecosystem"
-          ></MenuItem>
+          <NavLink to={"/ecosystem"} className={"menu-item"}>
+            Ecosystem
+          </NavLink>
           <div className="dropdown">
             <button className="menu-item">Developers</button>
             <div className="dropdown-content rounded-xl">
@@ -123,8 +122,8 @@ const NavBar = () => {
             </div>
           </div>
           {/* <MenuItem href="#" name="Learn"></MenuItem>
-          <MenuItem href="#" name="Foundation"></MenuItem>
-          <MenuItem href="#" name="Community"></MenuItem> */}
+            <MenuItem href="#" name="Foundation"></MenuItem>
+            <MenuItem href="#" name="Community"></MenuItem> */}
           <MenuItem href="https://vote.makerdao.com/" name="Vote"></MenuItem>
         </div>
       </div>
@@ -132,4 +131,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default NavBarRouter;

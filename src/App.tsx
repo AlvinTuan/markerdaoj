@@ -1,11 +1,10 @@
 import React from "react";
 import { Layout, Space } from "antd";
 import NavBar from "./layout/NavBar";
-import Introduce from "./components/overview/Introduce";
-import AcrossBanner from "./components/overview/AcrossBanner";
-import OneColumn from "./components/overview/OneColumn";
-import Community from "./components/overview/Community";
+
 import FooterMKD from "./components/overview/FooterMKD";
+import HomePage from "./pages/HomePage";
+import NavBarRouter from "./layout/NavBarRouter";
 
 const { Header, Footer, Content } = Layout;
 
@@ -14,13 +13,11 @@ function App() {
     <>
       <Layout>
         <Header className="layout-style">
-          <NavBar></NavBar>
+          {/* <NavBar></NavBar> */}
+          <NavBarRouter></NavBarRouter>
         </Header>
         <Content className="layout-style">
-          <Introduce></Introduce>
-          <AcrossBanner></AcrossBanner>
-          <OneColumn></OneColumn>
-          <Community></Community>
+          <HomePage></HomePage>
         </Content>
         <Footer className="layout-style">
           <FooterMKD></FooterMKD>

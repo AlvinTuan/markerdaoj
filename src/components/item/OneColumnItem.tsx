@@ -7,12 +7,7 @@ interface props {
   img: React.ReactNode;
 }
 
-const OneColumnItem: React.FC<props> = ({
-  title,
-  describe,
-  toLink,
-  img,
-}: props) => {
+const OneColumnItem: React.FC<props> = ({ title, describe, toLink, img }) => {
   return (
     <>
       <div className="flex items-center justify-between mb-24">

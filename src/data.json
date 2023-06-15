@@ -1,0 +1,240 @@
+{
+  "contributors": [
+    {
+      "id": 1,
+      "toLink": "https://vote.makerdao.com/",
+      "image": "/ime1.png",
+      "title": "Governance",
+      "description": "Vote on changes to the Maker protocol."
+    },
+    {
+      "id": 2,
+      "toLink": "https://migrate.makerdao.com/",
+      "image": "/Migrate.png",
+      "title": "Migrate",
+      "description": "Move your Dai and CDPs into their new versions."
+    }
+  ],
+  "GetDai": [
+    {
+      "id": 1,
+      "toLink": "https://www.bitcointrade.com.br/",
+      "image": "/Bitcointrade.png",
+      "title": "Bitcointrade",
+      "description": "Buy and Sell crypto in Brazil."
+    },
+    {
+      "id": 2,
+      "toLink": "https://www.buenbit.com/",
+      "image": "/Buenbit.png",
+      "title": "Buenbit",
+      "description": "The easiest way for LATAM audiences to buy and sell Dai."
+    },
+    {
+      "id": 3,
+      "toLink": "https://www.coinbase.com/",
+      "image": "/coinbase.png",
+      "title": "Coinbase",
+      "description": "A secure platform that makes it easy to buy, sell, and store cryptocurrency."
+    },
+    {
+      "id": 4,
+      "toLink": "https://www.bitcointrade.com.br/",
+      "image": "/oasis_app.png",
+      "title": "Oasis.app",
+      "description": "The home for your smarter digital currency Dai. Buy, Send and Save it all in one place."
+    },
+    {
+      "id": 5,
+      "toLink": "https://www.bitcointrade.com.br/",
+      "image": "/panda_exchange.png",
+      "title": "Panda Exchange",
+      "description": "A platform to exchange your crypto assets easily, speedily, and safely."
+    },
+    {
+      "id": 6,
+      "toLink": "https://swissborg.com/",
+      "image": "/swissborg.png",
+      "title": "Swissborg",
+      "description": "Manage your crypto investment."
+    },
+    {
+      "id": 7,
+      "toLink": "https://www.sendwyre.com/",
+      "image": "/wyre.png",
+      "title": "Wyre",
+      "description": "Exchange crypto safely and securely."
+    }
+  ],
+  "UseDai": [
+    {
+      "id": 1,
+      "toLink": "https://token.im/",
+      "image": "/imToken.png",
+      "title": "imToken",
+      "description": "World-renowned mobile light wallet for digital asset management."
+    },
+    {
+      "id": 2,
+      "toLink": "https://www.tokensets.com/#/",
+      "image": "/set_protocol.png",
+      "title": "Set Protocol",
+      "description": "Enhance your portfolio with automated asset management strategies."
+    },
+    {
+      "id": 3,
+      "toLink": "https://pos.valentelabs.com.ar/login",
+      "image": "/valentePOS.png",
+      "title": "ValentePOS",
+      "description": "Issue legal invoices accepting Dai as a payment currency payment in Argentina in a simple and quick way."
+    },
+    {
+      "id": 4,
+      "toLink": "https://wirexapp.com/",
+      "image": "/wirex.png",
+      "title": "Wirex",
+      "description": "Transfer digital and traditional currencies around the globe."
+    }
+  ],
+  "HoldDai": [
+    {
+      "id": 1,
+      "toLink": "https://www.anchorage.com/",
+      "image": "/anchorage.png",
+      "title": "Anchorage",
+      "description": "Raising the bar for digital asset custody"
+    },
+    {
+      "id": 2,
+      "toLink": "https://custody.coinbase.com/",
+      "image": "/coinbase_custody.png",
+      "title": "Coinbase Custody",
+      "description": "Digital asset custody for institutions."
+    },
+    {
+      "id": 3,
+      "toLink": "https://www.ledger.com/",
+      "image": "/ledger.png",
+      "title": "Ledger",
+      "description": "Secure your crypto assets such as Bitcoin, Ethereum, XRP, Monero and more."
+    },
+    {
+      "id": 4,
+      "toLink": "https://metamask.io/",
+      "image": "/metamark.png",
+      "title": "MetaMask",
+      "description": "Making Ethereum as easy to use for as many people as possible."
+    },
+    {
+      "id": 5,
+      "toLink": "https://mycrypto.com/",
+      "image": "/my_crypto.png",
+      "title": "MyCrypto",
+      "description": "Create wallets, manage your assets, and interact with the blockchain."
+    },
+    {
+      "id": 6,
+      "toLink": "https://trezor.io/",
+      "image": "/trezor.png",
+      "title": "Trezor",
+      "description": "The first and original hardware wallet."
+    }
+  ],
+  "AcceptDai": [
+    {
+      "id": 1,
+      "toLink": "https://www.dentwireless.com/",
+      "image": "/dent.png",
+      "title": "DENT",
+      "description": "A digital and global mobile operator."
+    },
+    {
+      "id": 2,
+      "toLink": "https://opensea.io/",
+      "image": "/opensea.png",
+      "title": "OpenSea",
+      "description": "The largest marketplace for crypto collectibles."
+    }
+  ],
+  "DeFI": [
+    {
+      "id": 1,
+      "toLink": "https://app.1inch.io/",
+      "image": "/1inch.png",
+      "title": "1inch",
+      "description": "DEX Aggregator with the best prices on the market."
+    },
+    {
+      "id": 2,
+      "toLink": "https://curve.fi/",
+      "image": "/curve.png",
+      "title": "Curve",
+      "description": "An exchange liquidity pool on Ethereum."
+    },
+    {
+      "id": 3,
+      "toLink": "https://defisaver.com/",
+      "image": "/defi_saver.png",
+      "title": "DeFi Saver",
+      "description": "One-stop management app for decentralized finance."
+    },
+    {
+      "id": 4,
+      "toLink": "https://instadapp.io/",
+      "image": "/instaDapp.png",
+      "title": "InstaDapp",
+      "description": "Manage, optimize and deploy your assets to get the best returns across protocols."
+    },
+    {
+      "id": 5,
+      "toLink": "https://oasis.app/borrow",
+      "image": "/oasis_borrow.png",
+      "title": "Oasis Borrow",
+      "description": "Manage depositing of collateral and generation of Dai."
+    },
+    {
+      "id": 6,
+      "toLink": "https://uniswap.org/",
+      "image": "/uniswap.png",
+      "title": "Uniswap",
+      "description": "A protocol for automated token exchange on Ethereum."
+    }
+  ],
+  "Games": [
+    {
+      "id": 1,
+      "toLink": "https://www.blocklords.com/",
+      "image": "/blocklords.png",
+      "title": "Blocklords",
+      "description": "The ultimate online grand strategy game."
+    },
+    {
+      "id": 2,
+      "toLink": "https://www.leagueofkingdoms.com/",
+      "image": "/lok.png",
+      "title": "League of Kingdoms",
+      "description": "An MMO Strategy game where gamers fight for dominion."
+    },
+    {
+      "id": 3,
+      "toLink": "https://marble.cards/",
+      "image": "/marble_cards.png",
+      "title": "Marble.cards",
+      "description": "Create and trade unique digital cards based on URLs."
+    },
+    {
+      "id": 4,
+      "toLink": "https://www.sandbox.game/en/",
+      "image": "/sandbox.png",
+      "title": "Sandbox",
+      "description": "Play, Create, Own, and Govern a virtual world made by players."
+    },
+    {
+      "id": 5,
+      "toLink": "https://xaya.io/",
+      "image": "/xaya.png",
+      "title": "Xaya",
+      "description": "A purpose built blockchain specifically for the hosting of completely decentralized blockchain game worlds."
+    }
+  ]
+}

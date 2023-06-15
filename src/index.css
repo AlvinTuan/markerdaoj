@@ -143,3 +143,28 @@ li > a:hover {
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+.made-com {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  justify-content: start;
+  gap: 8px 45px;
+}
+.made-com > span {
+  font-size: 19px;
+  font-weight: 400;
+  cursor: pointer;
+  user-select: none;
+}
+.community-list {
+  display: grid;
+  gap: 25px 37px;
+  grid-template-columns: 1fr 1fr;
+}
+/* .toggle-click {
+  display: block;
+  color: #1aab9b;
+}
+.toggle-unclick {
+  display: none;
+  color: #999;
+} */
